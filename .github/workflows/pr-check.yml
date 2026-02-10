@@ -81,6 +81,7 @@ jobs:
           FILES_TO_CHECK_LICENSE=$(find . \
           -not -path "./tmp/*" \
           -not -path "./node_modules/*" \
+          -not -path "./.operator-sources/*" \
           -not -path "./resources/*" \
           -not -path "./templates/*" \
           -not -path "./lib/*" \
