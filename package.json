@@ -95,6 +95,7 @@
       "-v"
     ],
     "topicSeparator": ":",
+    "default": "commands",
     "commands": "./lib/commands",
     "hooks": {
       "prerun": "./lib/hooks/prerun/new-version-warning",
